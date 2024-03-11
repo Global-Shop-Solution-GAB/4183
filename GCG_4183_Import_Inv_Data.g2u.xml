@@ -1,0 +1,1795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SyntaxEdit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Pages>
+    <DefaultPage>
+      <Header />
+      <Footer />
+    </DefaultPage>
+  </Pages>
+  <DisplayStrings />
+  <Selection>
+    <SelectionRect>
+      <Location>
+        <X>0</X>
+        <Y>1462</Y>
+      </Location>
+      <Size>
+        <Width>24</Width>
+        <Height>6</Height>
+      </Size>
+      <X>0</X>
+      <Y>1462</Y>
+      <Width>24</Width>
+      <Height>6</Height>
+    </SelectionRect>
+    <Options>UseColors OverwriteBlocks SelectLineOnTripleClick CopyLineWhenEmpty SelectWordOnCtrlClick</Options>
+  </Selection>
+  <Gutter>
+    <Options>PaintLineNumbers PaintBookMarks PaintLineModificators</Options>
+  </Gutter>
+  <Margin>
+    <Visible>false</Visible>
+  </Margin>
+  <LineStyles />
+  <LineSeparator />
+  <Printing>
+    <Footer />
+    <Header />
+  </Printing>
+  <WhiteSpace />
+  <TextSource>
+    <Position>
+      <X>0</X>
+      <Y>1462</Y>
+    </Position>
+    <Lexer>
+      <Scheme>
+        <Author>Quantum Whale, LLC.</Author>
+        <Copyright>Copyright (c) 2004 - 2014 Quantum Whale LLC.</Copyright>
+        <FileType>gas</FileType>
+        <Version>1.5</Version>
+        <Styles>
+          <Style>
+            <Name>idents</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>numbers</Name>
+            <ForeColor>ControlText</ForeColor>
+          </Style>
+          <Style>
+            <Name>reswords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>comments</Name>
+            <ForeColor>Green</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>xmlcomments</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>symbols</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>whitespace</Name>
+            <ForeColor>WindowText</ForeColor>
+          </Style>
+          <Style>
+            <Name>strings</Name>
+            <ForeColor>Maroon</ForeColor>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>directives</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>htmlparams</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>syntax errors</Name>
+            <ForeColor>Red</ForeColor>
+          </Style>
+          <Style>
+            <Name>codes nippets</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>255:180:228:180</BackColor>
+          </Style>
+          <Style>
+            <Name>GabReservedWords</Name>
+            <ForeColor>Blue</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabTokenWithBrackets</Name>
+            <ForeColor>Gray</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabFunctionIntrinsicDebug</Name>
+            <ForeColor>White</ForeColor>
+            <BackColor>Red</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+          <Style>
+            <Name>GabVariable</Name>
+            <ForeColor>Teal</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabVariableSystemDefined</Name>
+            <ForeColor>Teal</ForeColor>
+            <FontStyle>Bold Italic</FontStyle>
+          </Style>
+          <Style>
+            <Name>GabGui</Name>
+            <ForeColor>OrangeRed</ForeColor>
+          </Style>
+          <Style>
+            <Name>GabProgramSubStartEnd</Name>
+            <ForeColor>Black</ForeColor>
+            <BackColor>LightGray</BackColor>
+            <FontStyle>Bold</FontStyle>
+            <PlainText>true</PlainText>
+          </Style>
+        </Styles>
+      </Scheme>
+    </Lexer>
+    <TextStrings>
+      <Lines>
+        <string>Program.Sub.ScreenSU.Start</string>
+        <string>Gui.F_Inv_Append..Create</string>
+        <string>Gui.F_Inv_Append..Caption("Append Rev Inventory Data")</string>
+        <string>Gui.F_Inv_Append..Size(6735,1800)</string>
+        <string>Gui.F_Inv_Append..MinX(0)</string>
+        <string>Gui.F_Inv_Append..MinY(0)</string>
+        <string>Gui.F_Inv_Append..Position(0,0)</string>
+        <string>Gui.F_Inv_Append..BackColor(-2147483633)</string>
+        <string>Gui.F_Inv_Append..MousePointer(0)</string>
+        <string>Gui.F_Inv_Append..Event(UnLoad,F_Inv_Append_UnLoad)</string>
+        <string>Gui.F_Inv_Append.txtFilePath.Create(TextBox,"",True,5820,300,0,75,375,False,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.F_Inv_Append.lbl1.Create(Label,"File Path",True,900,255,0,75,195,True,0,"Arial",8,-986896,0)</string>
+        <string>Gui.F_Inv_Append.cmdOkay.Create(Button)</string>
+        <string>Gui.F_Inv_Append.cmdOkay.Size(855,375)</string>
+        <string>Gui.F_Inv_Append.cmdOkay.Position(75,750)</string>
+        <string>Gui.F_Inv_Append.cmdOkay.Caption("Okay")</string>
+        <string>Gui.F_Inv_Append.cmdOkay.Event(Click,cmdOkay_Click)</string>
+        <string>Gui.F_Inv_Append.cmdBrowser.Create(Button)</string>
+        <string>Gui.F_Inv_Append.cmdBrowser.Size(390,375)</string>
+        <string>Gui.F_Inv_Append.cmdBrowser.Position(5970,330)</string>
+        <string>Gui.F_Inv_Append.cmdBrowser.Caption("^")</string>
+        <string>Gui.F_Inv_Append.cmdBrowser.Event(Click,cmdBrowser_Click)</string>
+        <string>Gui.F_Results..Create</string>
+        <string>Gui.F_Results..Caption("Results")</string>
+        <string>Gui.F_Results..Size(2910,3150)</string>
+        <string>Gui.F_Results..MinX(0)</string>
+        <string>Gui.F_Results..MinY(0)</string>
+        <string>Gui.F_Results..Position(0,0)</string>
+        <string>Gui.F_Results..BackColor(-2147483633)</string>
+        <string>Gui.F_Results..MousePointer(0)</string>
+        <string>Gui.F_Results..Event(UnLoad,F_Inv_Append_UnLoad)</string>
+        <string>Gui.F_Results.lbl1.Create(Label,"Successful Parts",True,1365,255,0,735,240,True,0,"Arial",8,-986896,0)</string>
+        <string>Gui.F_Results.lbl2.Create(Label,"Failed Parts",True,1095,255,0,885,930,True,0,"Arial",8,-986896,0)</string>
+        <string>Gui.F_Results.txtSuccess.Create(TextBox,"",True,1215,300,0,795,465,False,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.F_Results.txtFailed.Create(TextBox,"",True,1215,300,0,795,1140,False,0,"Arial",8,-2147483643,1)</string>
+        <string>Gui.F_Results.cmdFinished.Create(Button)</string>
+        <string>Gui.F_Results.cmdFinished.Size(855,375)</string>
+        <string>Gui.F_Results.cmdFinished.Position(945,2070)</string>
+        <string>Gui.F_Results.cmdFinished.Caption("Okay")</string>
+        <string>Gui.F_Results.cmdFinished.Event(Click,F_Inv_Append_UnLoad)</string>
+        <string>Gui.F_Results.cmdFailed.Create(Button)</string>
+        <string>Gui.F_Results.cmdFailed.Size(1140,375)</string>
+        <string>Gui.F_Results.cmdFailed.Position(825,1575)</string>
+        <string>Gui.F_Results.cmdFailed.Caption("Show Failed")</string>
+        <string>Gui.F_Results.cmdFailed.DefaultValue("Show Failed")</string>
+        <string>Gui.F_Results.cmdFailed.Event(Click,cmdFailed_Click)</string>
+        <string>Gui.F_Results.cmdFailed.Enabled(False)</string>
+        <string>Program.Sub.ScreenSU.End</string>
+        <string />
+        <string>Program.Sub.Preflight.Start</string>
+        <string>Variable.Global.sFilePath.Declare(String)</string>
+        <string>Program.Sub.Preflight.End</string>
+        <string />
+        <string>Program.Sub.Main.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Main_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>F.ODBC.Connection!conX.OpenConnection(V.Ambient.PDSN,V.Ambient.PUser,V.Ambient.PPass)</string>
+        <string>Gui.F_Inv_Append..Show</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Main_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4183_Import_Inv_Data.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_inv_append_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.Main.End</string>
+        <string />
+        <string>Program.Sub.cmdBrowser_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdBrowser_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sFilePath.Declare(String)</string>
+        <string />
+        <string>'Have user select the file to be uploaded</string>
+        <string>F.Intrinsic.UI.ShowOpenFileDialog("","xlsx|*xlsx","",V.Local.sFilePath)</string>
+        <string />
+        <string>'If no file selected then exit program</string>
+        <string>F.Intrinsic.Control.If(V.Local.sFilePath,=,"***CANCEL***")</string>
+        <string>	F.Intrinsic.UI.Msgbox("No File Selected","Program Ending")</string>
+        <string>	F.Intrinsic.Control.CallSub(f_inv_append_unload)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>Gui.F_Inv_Append.txtFilePath.Text(V.Local.sFilePath)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdBrowser_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4183_Import_Inv_Data.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_inv_append_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdBrowser_Click.End</string>
+        <string />
+        <string>Program.Sub.cmdOkay_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdOkay_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.Screen.F_Inv_Append!txtFilePath.Text,&lt;&gt;,"")</string>
+        <string>	'Build the file to be imported</string>
+        <string>	F.Intrinsic.Control.CallSub(buildfile)</string>
+        <string>F.Intrinsic.Control.EndIf	</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdOkay_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4183_Import_Inv_Data.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_inv_append_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdOkay_Click.End</string>
+        <string />
+        <string>Program.Sub.BuildFile.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("BuildFile_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sFile.Declare(String)</string>
+        <string>V.Local.sFilePath.Declare(String)</string>
+        <string>V.Local.sDataRow.Declare(String)</string>
+        <string>V.Local.sUploadFile.Declare(String)</string>
+        <string>V.Local.sRow.Declare(String)</string>
+        <string>V.Local.sUnUsedParts.Declare(String)</string>
+        <string>V.local.sPart.Declare(String)</string>
+        <string>V.Local.sNotify.Declare(String)</string>
+        <string>V.Local.sCurrentDate.Declare(String)</string>
+        <string>V.Local.sSheets.Declare(String)</string>
+        <string>V.Local.iSuccessParts.Declare(Long)</string>
+        <string>V.Local.iFailedParts.Declare(Long)</string>
+        <string>V.Local.iC.Declare(Long)</string>
+        <string>V.Local.iRow.Declare(Long)</string>
+        <string />
+        <string>Gui.F_Inv_Append..Visible(False)</string>
+        <string>F.Intrinsic.UI.InvokeWaitDialog("Reading Spreadsheet","Part Upload")</string>
+        <string />
+        <string>'Read the spreadsheet</string>
+        <string>F.Automation.MSExcel.ReadSpreadsheet(V.Screen.F_Inv_Append!txtFilePath.Text,V.Local.sSheets)</string>
+        <string />
+        <string>'Check to make sure the return file isn't blank</string>
+        <string>F.Intrinsic.Control.If(V.Local.sSheets,&lt;&gt;,"")</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sSheets,"&amp;^&amp;",V.Local.sSheets)</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sSheets(0),"$!$",V.Local.sFile)</string>
+        <string>	'Check to make sure there is more than one row. If not then there is no data</string>
+        <string>	F.Intrinsic.Control.If(V.Local.sFile.UBound,&gt;,0)</string>
+        <string>		'Now we need to loop through the rows, start at 1 since they will always being using the first row for the column names</string>
+        <string>		F.Intrinsic.Control.For(V.Local.iC,1,V.Local.sFile.UBound,1)</string>
+        <string>			'Split the row</string>
+        <string>			F.Intrinsic.String.Split(V.Local.sFile(V.Local.iC),"*!*",V.Local.sDataRow)</string>
+        <string>			'Get GSS Part String</string>
+        <string>			F.Intrinsic.String.GSSPartString(V.Local.sDataRow(0),V.Local.sDataRow(1),V.Local.sPart)</string>
+        <string>			F.Intrinsic.String.Build("Validating Part: {0}",V.Local.sPart,V.Local.sNotify)</string>
+        <string>			'Let user know we're validating part</string>
+        <string>			F.Intrinsic.UI.ChangeWaitStatus(V.Local.sNotify)</string>
+        <string>			'Data found so now we need to check if the part exists already within Global Shop. If so then we will not be adding it to the file to be uploaded. Part Number/Rev/Location are in the first three columns always</string>
+        <string>			F.Intrinsic.Control.CallSub(checkpart,"Part",V.Local.sPart,"Loc",V.Local.sDataRow(2))</string>
+        <string>			'Check to see if the part is already in Global Shop. If so then skip this row, otherwise continue adding the data to the file.</string>
+        <string>			F.Intrinsic.Control.If(V.Args.Exists,&lt;&gt;,True)</string>
+        <string>				F.Intrinsic.Math.Add(V.Local.iSuccessParts,1,V.Local.iSuccessParts)</string>
+        <string>				F.Intrinsic.UI.ChangeWaitStatus("Adding Part To Upload File")</string>
+        <string>				'We now need to add this row to the list of parts to be uploaded, this is going to be a lot of lines :D</string>
+        <string>				</string>
+        <string>				'passing part and description to extra text sub </string>
+        <string>				F.Intrinsic.Control.CallSub(extra_text,"Part",V.Local.sPart,"Desc",V.Local.sDataRow(V.Local.sDataRow.uBound))</string>
+        <string>				</string>
+        <string>				'Recombine the data so that we can pass it all</string>
+        <string>				F.Intrinsic.String.Join(V.Local.sDataRow,"*!*",V.Local.sDataRow)</string>
+        <string>				F.Intrinsic.Control.CallSub(formatrow,"Data",V.Local.sDataRow)</string>
+        <string>				'Now add that formatted row to the List</string>
+        <string>				F.Intrinsic.Control.If(V.Local.sUploadFile,=,"")</string>
+        <string>					'If blank insert as first line</string>
+        <string>					V.Local.sUploadFile.Set(V.Args.AddRow)</string>
+        <string>				F.Intrinsic.Control.Else</string>
+        <string>					'Else add to newline</string>
+        <string>					F.Intrinsic.String.Build("{0}{1}{2}",V.Local.sUploadFile,V.Ambient.NewLine,V.Args.AddRow,V.Local.sUploadFile)</string>
+        <string>				F.Intrinsic.Control.EndIf</string>
+        <string>			F.Intrinsic.Control.Else</string>
+        <string>				'Update the number of failed parts</string>
+        <string>				F.Intrinsic.Math.Add(V.Local.iFailedParts,1,V.Local.iFailedParts)</string>
+        <string>				'Get the actual row in the spreadsheet of the rejected part</string>
+        <string>				F.Intrinsic.Math.Add(V.Local.iC,1,V.Local.iRow)</string>
+        <string>				'Add part to the list of unused parts</string>
+        <string>				F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{2}{5}",V.Local.sUnUsedParts,V.Local.iRow,V.Ambient.Tab,V.Local.sPart,V.Local.sDataRow(2),V.Ambient.NewLine,V.Local.sUnUsedParts)</string>
+        <string>			F.Intrinsic.Control.EndIf</string>
+        <string>		F.Intrinsic.Control.Next(V.Local.iC)</string>
+        <string />
+        <string>		'Check to see if there are any records to be written to the upload file</string>
+        <string>		F.Intrinsic.Control.If(V.Local.sUploadFile,&lt;&gt;,"")</string>
+        <string>			F.Intrinsic.UI.ChangeWaitStatus("Uploading Parts")</string>
+        <string>			'Write File Name</string>
+        <string>			F.Intrinsic.String.Build("{0}\INV.TXT",V.Caller.FilesDir,V.Local.sFilePath)</string>
+        <string>			'Create the upload file</string>
+        <string>			F.Intrinsic.File.String2File(V.Local.sFilePath,V.Local.sUploadFile)</string>
+        <string>			'Call Run Program to run 1Shot</string>
+        <string>			</string>
+        <string>			F.Global.General.CallWrapperSync(50,"UPLINV/A")</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>		F.Intrinsic.UI.CloseWaitDialog</string>
+        <string>		</string>
+        <string>		'Check to see if there are any parts that already existed. If so create file.</string>
+        <string>		F.Intrinsic.Control.If(V.Local.sUnUsedParts,&lt;&gt;,"")</string>
+        <string>			'Get current date for file</string>
+        <string>			F.Intrinsic.String.Format(V.Ambient.Now,"mmddyy_HhNnSs",V.Local.sCurrentDate)</string>
+        <string>			'Set File Path and Name</string>
+        <string>			F.Intrinsic.String.Build("{0}\Existing_Parts_{1}_{2}.txt",V.Caller.FilesDir,V.Caller.User,V.Local.sCurrentDate,V.Global.sFilePath)</string>
+        <string>			'Write string to file</string>
+        <string>			F.Intrinsic.File.String2File(V.Global.sFilePath,V.Local.sUnUsedParts)</string>
+        <string>			'Update Failed button to be enabled since we have a file</string>
+        <string>			Gui.F_Results.cmdFailed.Enabled(True)</string>
+        <string>		F.Intrinsic.Control.EndIf</string>
+        <string>		</string>
+        <string>		'Set the total number of successes and failures in screen</string>
+        <string>		Gui.F_Results.txtSuccess.Text(V.Local.iSuccessParts)</string>
+        <string>		Gui.F_Results.txtFailed.Text(V.Local.iFailedParts)</string>
+        <string>		</string>
+        <string>		'Show screen</string>
+        <string>		Gui.F_Results..Show</string>
+        <string>		</string>
+        <string>	F.Intrinsic.Control.Else</string>
+        <string>		F.Intrinsic.UI.Msgbox("No data found in file.")</string>
+        <string>		F.Intrinsic.Control.CallSub(f_inv_append_unload)</string>
+        <string>	F.Intrinsic.Control.EndIf</string>
+        <string>'If it is blank inform user and close program</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Intrinsic.UI.Msgbox("No data found in file.")</string>
+        <string>	F.Intrinsic.Control.CallSub(f_inv_append_unload)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("BuildFile_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4183_Import_Inv_Data.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_inv_append_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.BuildFile.End</string>
+        <string />
+        <string>Program.Sub.CheckPart.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("CheckPart_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sSQL.Declare(String)</string>
+        <string>V.Local.bExists.Declare(Boolean,False)</string>
+        <string />
+        <string>'Build sql statement to see if it exists</string>
+        <string>F.Intrinsic.String.Build("SELECT * FROM V_INVENTORY_MSTR WHERE PART = '{0}' AND LOCATION = '{1}'",V.Args.Part,V.Args.Loc,V.Local.sSQL)</string>
+        <string>'Open Recordset</string>
+        <string>F.ODBC.Connection!conX.OpenLocalRecordsetRO("rstPart",V.Local.sSQL)</string>
+        <string />
+        <string>'Check to see if the part exists</string>
+        <string>F.Intrinsic.Control.If(V.ODBC.conX!rstPart.EOF,&lt;&gt;,True)</string>
+        <string>	V.Local.bExists.Set(True)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>'Return whether the part exists or not.</string>
+        <string>F.Intrinsic.Variable.AddRV("Exists",V.Local.bExists)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("CheckPart_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4183_Import_Inv_Data.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_inv_append_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.CheckPart.End</string>
+        <string />
+        <string>Program.Sub.FormatRow.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("FormatRow_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sRow.Declare(String)</string>
+        <string>V.Local.sTemp.Declare(String)</string>
+        <string>V.Local.sData.Declare(String)</string>
+        <string>V.Local.sUser.Declare(String)</string>
+        <string>V.Local.bNegative.Declare(Boolean)</string>
+        <string>V.Local.iC.Declare(Long)</string>
+        <string />
+        <string>'Set the passed array to the local</string>
+        <string>V.Local.sData.Set(V.Args.Data)</string>
+        <string>'Split the data</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData,"*!*",V.Local.sData)</string>
+        <string />
+        <string>'Pad Part</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(0)," ",17,V.Local.sData(0))</string>
+        <string />
+        <string>'Rev</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(1)," ",3,V.Local.sData(1))</string>
+        <string />
+        <string>'Location</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(2)," ",2,V.Local.sData(2))</string>
+        <string />
+        <string>'ABC code</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(3)," ",1,V.Local.sData(3))</string>
+        <string />
+        <string>'Product Line</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(4)," ",2,V.Local.sData(4))</string>
+        <string />
+        <string>'Bin</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(5)," ",6,V.Local.sData(5))</string>
+        <string />
+        <string>'Part Description</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(6)," ",30,V.Local.sData(6))</string>
+        <string />
+        <string>'Purchasing UM</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(7)," ",2,V.Local.sData(7))</string>
+        <string />
+        <string>'Filler 1</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(8)," ",1,V.Local.sData(8))</string>
+        <string />
+        <string>'Add this to the return string for the data, has extra space for filler</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sData(0),V.Local.sData(1),V.Local.sData(2),V.Local.sData(3),V.Local.sData(4),V.Local.sData(5),V.Local.sData(6),V.Local.sData(7),V.Local.sData(8),V.Local.sRow)</string>
+        <string />
+        <string>'Inv UM</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(9)," ",2,V.Local.sData(9))</string>
+        <string />
+        <string>'Filler 2</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(10)," ",1,V.Local.sData(10))</string>
+        <string />
+        <string>'Purchasing Conversion Factor</string>
+        <string>'Split at the decimal</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(11),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build left side of decimal</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",10,V.Local.sTemp(0))</string>
+        <string>'Build right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",5,V.Local.sTemp(1))</string>
+        <string>'Recombine the two</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(11))</string>
+        <string />
+        <string>'Order Quantity</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(12),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(12))</string>
+        <string />
+        <string>'On Hand Quantity</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(13),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(13))</string>
+        <string />
+        <string>'Re Order Point</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(14),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(14))</string>
+        <string />
+        <string>'Unit Cost</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(15),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(15))</string>
+        <string />
+        <string>'Monthly Usage January</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(16),".",V.Local.sTemp)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",15,V.Local.sData(16))</string>
+        <string>'Add in Decimal</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(16),".",16,V.Local.sData(16))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(9),V.Local.sData(10),V.Local.sData(11),V.Local.sData(12),V.Local.sData(13),V.Local.sData(14),V.Local.sData(15),V.Local.sData(16),V.Local.sRow)</string>
+        <string />
+        <string>'Monthly Usage February Thru Sept</string>
+        <string>F.Intrinsic.Control.For(V.Local.iC,17,24,1)</string>
+        <string>	V.Local.sTemp.Redim(0,0)</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sData(V.Local.iC),".",V.Local.sTemp)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",15,V.Local.sData(V.Local.iC))</string>
+        <string>	'Add in Decimal</string>
+        <string>	F.Intrinsic.String.RPad(V.Local.sData(V.Local.iC),".",16,V.Local.sData(V.Local.iC))</string>
+        <string>F.Intrinsic.Control.Next(V.Local.iC)</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(17),V.Local.sData(18),V.Local.sData(19),V.Local.sData(20),V.Local.sData(21),V.Local.sData(22),V.Local.sData(23),V.Local.sData(24),V.Local.sRow)</string>
+        <string />
+        <string>'Monthly Usage October - December</string>
+        <string>F.Intrinsic.Control.For(V.Local.iC,25,27,1)</string>
+        <string>	V.Local.sTemp.Redim(0,0)</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sData(V.Local.iC),".",V.Local.sTemp)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",15,V.Local.sData(V.Local.iC))</string>
+        <string>	'Add in Decimal</string>
+        <string>	F.Intrinsic.String.RPad(V.Local.sData(V.Local.iC),".",16,V.Local.sData(V.Local.iC))</string>
+        <string>F.Intrinsic.Control.Next(V.Local.iC)</string>
+        <string />
+        <string>'List Price</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(28),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",10,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",5,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(28))</string>
+        <string />
+        <string>'Sort Code</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(29)," ",10,V.Local.sData(29))</string>
+        <string />
+        <string>'Last Audit Date</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(30)," ",6,V.Local.sData(30))</string>
+        <string />
+        <string>'Lead Time</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(31)," ",4,V.Local.sData(31))</string>
+        <string />
+        <string>'Raw Material Length</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(32),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",13,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",2,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(32))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(25),V.Local.sData(26),V.Local.sData(27),V.Local.sData(28),V.Local.sData(29),V.Local.sData(30),V.Local.sData(31),V.Local.sData(32),V.Local.sRow)</string>
+        <string />
+        <string>'Raw Material Width</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(33),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",13,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",2,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(33))</string>
+        <string />
+        <string>'Raw Material Density</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(34),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",10,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",5,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(34))</string>
+        <string />
+        <string>'Raw Material Shape Code</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(35)," ",1,V.Local.sData(35))</string>
+        <string />
+        <string>'Use Lot/Bin Flag, pad with N since if there's nothing in there then it should default to no</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(36),"N",1,V.Local.sData(36))</string>
+        <string />
+        <string>'Source</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(37)," ",12,V.Local.sData(37))</string>
+        <string />
+        <string>'Vendor</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(38)," ",20,V.Local.sData(38))</string>
+        <string />
+        <string>'User Defined Info 1</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(39)," ",20,V.Local.sData(39))</string>
+        <string />
+        <string>'User Defined Info 2</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(40)," ",20,V.Local.sData(40))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(33),V.Local.sData(34),V.Local.sData(35),V.Local.sData(36),V.Local.sData(37),V.Local.sData(38),V.Local.sData(39),V.Local.sData(40),V.Local.sRow)</string>
+        <string />
+        <string>'Alt Description 1</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(41)," ",30,V.Local.sData(41))</string>
+        <string />
+        <string>'Alt Description 2</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(42)," ",30,V.Local.sData(42))</string>
+        <string />
+        <string>'Weight (Pounds)</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(43),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(43))</string>
+        <string />
+        <string>'Lot Number</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(44)," ",15,V.Local.sData(44))</string>
+        <string />
+        <string>'Heat Number</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(45)," ",15,V.Local.sData(45))</string>
+        <string />
+        <string>'Serial Number</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(46)," ",30,V.Local.sData(46))</string>
+        <string />
+        <string>'Bin</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(47)," ",2,V.Local.sData(47))</string>
+        <string />
+        <string>'Bin Description</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(48)," ",30,V.Local.sData(48))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(41),V.Local.sData(42),V.Local.sData(43),V.Local.sData(44),V.Local.sData(45),V.Local.sData(46),V.Local.sData(47),V.Local.sData(48),V.Local.sRow)</string>
+        <string />
+        <string>'Prior Year To Date Usage</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(49),".",V.Local.sTemp)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",15,V.Local.sData(49))</string>
+        <string>'Add in Decimal</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(49),".",16,V.Local.sData(49))</string>
+        <string />
+        <string>'Loop through each User Input Info Field 1-9</string>
+        <string>F.Intrinsic.Control.For(V.Local.iC,50,58,1)</string>
+        <string>	F.Intrinsic.String.RPad(V.Local.sData(V.Local.iC)," ",15,V.Local.sData(V.Local.iC))</string>
+        <string>F.Intrinsic.Control.Next(V.Local.iC)</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}{9}{10}",V.Local.sRow,V.Local.sData(49),V.Local.sData(50),V.Local.sData(51),V.Local.sData(52),V.Local.sData(53),V.Local.sData(54),V.Local.sData(55),V.Local.sData(56),V.Local.sData(57),V.Local.sData(58),V.Local.sRow)</string>
+        <string />
+        <string>'Maximum</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(59),".",V.Local.sTemp)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",15,V.Local.sData(59))</string>
+        <string>'Add in Decimal</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(59),".",16,V.Local.sData(59))</string>
+        <string />
+        <string>'Safety Stock</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(60),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(60))</string>
+        <string />
+        <string>'Alt Cost</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(61),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(61))</string>
+        <string />
+        <string>'Weight Per Foot</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(62),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(62))</string>
+        <string />
+        <string>'Filler (Used to be Weight Per Length)</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(63)," ",16,V.Local.sData(63))</string>
+        <string />
+        <string>'Last Received Date</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(64)," ",8,V.Local.sData(64))</string>
+        <string />
+        <string>'Shape and Property Code</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(65)," ",10,V.Local.sData(65))</string>
+        <string />
+        <string>'Standard Hours</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(66),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",12,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",3,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(66))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(59),V.Local.sData(60),V.Local.sData(61),V.Local.sData(62),V.Local.sData(63),V.Local.sData(64),V.Local.sData(65),V.Local.sData(66),V.Local.sRow)</string>
+        <string />
+        <string>'BOM Switch</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(67)," ",1,V.Local.sData(67))</string>
+        <string />
+        <string>'Drop Flag</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(68)," ",1,V.Local.sData(68))</string>
+        <string />
+        <string>'Filler</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(69)," ",64,V.Local.sData(69))</string>
+        <string />
+        <string>'Serialize</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(70),"N",1,V.Local.sData(70))</string>
+        <string />
+        <string>'Inactive Part</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(71),"N",1,V.Local.sData(71))</string>
+        <string />
+        <string>'Warranty for Serialized Part</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(72),"N",1,V.Local.sData(72))</string>
+        <string />
+        <string>'Requires Inspection</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(73),"N",1,V.Local.sData(73))</string>
+        <string />
+        <string>'Price Category</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(74),"N",1,V.Local.sData(74))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(67),V.Local.sData(68),V.Local.sData(69),V.Local.sData(70),V.Local.sData(71),V.Local.sData(72),V.Local.sData(73),V.Local.sData(74),V.Local.sRow)</string>
+        <string />
+        <string>'Est/Issue UM</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(75)," ",3,V.Local.sData(75))</string>
+        <string />
+        <string>'Part Price Code</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(76)," ",3,V.Local.sData(76))</string>
+        <string />
+        <string>'BOM Type is Reference</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(77),"N",1,V.Local.sData(77))</string>
+        <string />
+        <string>'Discount</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(78)," ",1,V.Local.sData(78))</string>
+        <string />
+        <string>'TCF</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(79)," ",1,V.Local.sData(79))</string>
+        <string />
+        <string>'Filler</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(80)," ",7,V.Local.sData(80))</string>
+        <string />
+        <string>'Consumption Conversion Factor</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(81),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",10,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",5,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(81))</string>
+        <string />
+        <string>'Part has Shelf Life</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(82),"N",1,V.Local.sData(82))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(75),V.Local.sData(76),V.Local.sData(77),V.Local.sData(78),V.Local.sData(79),V.Local.sData(80),V.Local.sData(81),V.Local.sData(82),V.Local.sRow)</string>
+        <string />
+        <string>'Filler</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(83)," ",2,V.Local.sData(83))</string>
+        <string />
+        <string>'Cutting Charge</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(84)," ",1,V.Local.sData(84))</string>
+        <string />
+        <string>'Primary Dimension</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(85),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(85))</string>
+        <string />
+        <string>'Secondary Dimension</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(86),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",10,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",5,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(86))</string>
+        <string />
+        <string>'Hazardous Material Flag</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(87),"N",1,V.Local.sData(87))</string>
+        <string />
+        <string>'Requires Lot to Lot Tracking</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(88),"N",1,V.Local.sData(88))</string>
+        <string />
+        <string>'requires Testing</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(89),"N",1,V.Local.sData(89))</string>
+        <string />
+        <string>'Obsolete</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(90),"N",1,V.Local.sData(90))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(83),V.Local.sData(84),V.Local.sData(85),V.Local.sData(86),V.Local.sData(87),V.Local.sData(88),V.Local.sData(89),V.Local.sData(90),V.Local.sRow)</string>
+        <string />
+        <string>'Drop Ship</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(91),"N",1,V.Local.sData(91))</string>
+        <string />
+        <string>'Date Part Created</string>
+        <string>F.Intrinsic.String.Format(V.Ambient.Date,"YYYYMMDD",V.Local.sData(92))</string>
+        <string />
+        <string>'Do Not Calculate ABC</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(93),"N",1,V.Local.sData(93))</string>
+        <string />
+        <string>'Base Part</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(94),"N",1,V.Local.sData(94))</string>
+        <string />
+        <string>'Aging Group</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(95)," ",1,V.Local.sData(95))</string>
+        <string />
+        <string>'Project Group</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(96)," ",6,V.Local.sData(96))</string>
+        <string />
+        <string>'Stocking BIN</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(97)," ",6,V.Local.sData(97))</string>
+        <string />
+        <string>'Warranty Type</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(98)," ",2,V.Local.sData(98))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(91),V.Local.sData(92),V.Local.sData(93),V.Local.sData(94),V.Local.sData(95),V.Local.sData(96),V.Local.sData(97),V.Local.sData(98),V.Local.sRow)</string>
+        <string />
+        <string>'Alt Cost Date</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(99)," ",8,V.Local.sData(99))</string>
+        <string />
+        <string>'Additional Consumption Percent</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(100),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(100))</string>
+        <string />
+        <string>'Material Surcharge Type</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(101)," ",20,V.Local.sData(101))</string>
+        <string />
+        <string>'Material Surcharge Base Date</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(102)," ",8,V.Local.sData(102))</string>
+        <string />
+        <string>'IC Vendor</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(103)," ",6,V.Local.sData(103))</string>
+        <string />
+        <string>'Filler</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(104)," ",1,V.Local.sData(104))</string>
+        <string />
+        <string>'Temporarily Purchase Flag</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(105),"N",1,V.Local.sData(105))</string>
+        <string />
+        <string>'Auto Number Lots When Receiving</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(106),"N",1,V.Local.sData(106)) </string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(99),V.Local.sData(100),V.Local.sData(101),V.Local.sData(102),V.Local.sData(103),V.Local.sData(104),V.Local.sData(105),V.Local.sData(106),V.Local.sRow)</string>
+        <string />
+        <string>'Include Part in Business Web Flag</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(107),"N",1,V.Local.sData(107))</string>
+        <string />
+        <string>'Packaged By</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(108)," ",1,V.Local.sData(108))</string>
+        <string />
+        <string>'Ships on Pallet flag</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(109),"N",1,V.Local.sData(109))</string>
+        <string />
+        <string>'Packaged Weight</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(110),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",10,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",11,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(110))</string>
+        <string />
+        <string>'Pieces per carton</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(111),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",15,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",14,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",15,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp,".",16,V.Local.sData(111))</string>
+        <string>	</string>
+        <string>'Default Carton Code</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(112)," ",11,V.Local.sData(112))</string>
+        <string />
+        <string>'Default Pallet Code</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(113)," ",11,V.Local.sData(113))</string>
+        <string />
+        <string>'Pieces/Cartons per pallet</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(114),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",15,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",14,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",15,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp,".",16,V.Local.sData(114))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(107),V.Local.sData(108),V.Local.sData(109),V.Local.sData(110),V.Local.sData(111),V.Local.sData(112),V.Local.sData(113),V.Local.sData(114),V.Local.sRow)</string>
+        <string />
+        <string>'Commodity Description</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(115)," ",30,V.Local.sData(115))</string>
+        <string />
+        <string>'Filler</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(116)," ",20,V.Local.sData(116))</string>
+        <string />
+        <string>'NMFC Number</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(117)," ",6,V.Local.sData(117))</string>
+        <string />
+        <string>'NMFC Sub Number</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(118)," ",3,V.Local.sData(118))</string>
+        <string />
+        <string>'Filler</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(119)," ",1,V.Local.sData(119))</string>
+        <string />
+        <string>'Freight Class</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(120)," ",5,V.Local.sData(120))</string>
+        <string />
+        <string>'Packaged Components Flag</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(121),"N",1,V.Local.sData(121))</string>
+        <string />
+        <string>'Generated Part Number</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(122)," ",17,V.Local.sData(122))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(115),V.Local.sData(116),V.Local.sData(117),V.Local.sData(118),V.Local.sData(119),V.Local.sData(120),V.Local.sData(121),V.Local.sData(122),V.Local.sRow)</string>
+        <string />
+        <string>'Generated Part Flag</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(123),"N",1,V.Local.sData(123))</string>
+        <string />
+        <string>'Loop through and do each Alternate Price</string>
+        <string>F.Intrinsic.Control.For(V.Local.iC,124,137,1)</string>
+        <string>	V.Local.sTemp.Redim(0,0)</string>
+        <string>	F.Intrinsic.String.Split(V.Local.sData(V.Local.iC),".",V.Local.sTemp)</string>
+        <string>	'In case there wasn't a decimal</string>
+        <string>	V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",12,V.Local.sTemp(0))</string>
+        <string>	'Build Right side</string>
+        <string>	F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",6,V.Local.sTemp(1))</string>
+        <string>	'Recombine</string>
+        <string>	F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(V.Local.iC))</string>
+        <string>F.Intrinsic.Control.Next(V.Local.iC)</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}{9}{10}{11}{12}{13}{14}{15}",V.Local.sRow,V.Local.sData(123),V.Local.sData(124),V.Local.sData(125),V.Local.sData(126),V.Local.sData(127),V.Local.sData(128),V.Local.sData(129),V.Local.sData(130),V.Local.sData(131),V.Local.sData(132),V.Local.sData(133),V.Local.sData(134),V.Local.sData(135),V.Local.sData(136),V.Local.sData(137),V.Local.sRow)</string>
+        <string />
+        <string>'Filler</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(138)," ",114,V.Local.sData(138))</string>
+        <string />
+        <string>'On Order PO</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(139),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",10,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",11,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(139))</string>
+        <string />
+        <string>'On Order WO</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(140),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",10,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",11,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(140))</string>
+        <string />
+        <string>'Requirements</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(141),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",10,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",11,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(141))</string>
+        <string />
+        <string>'Last Used Date</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(142)," ",6,V.Local.sData(142))</string>
+        <string />
+        <string>'Current Usage</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(143),".",V.Local.sTemp)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",15,V.Local.sData(143))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",14,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",15,V.Local.sData(143))	</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Add in Decimal</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(143),".",16,V.Local.sData(143))</string>
+        <string />
+        <string>'Last Roll Month</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(144),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",2,V.Local.sData(144))</string>
+        <string />
+        <string>'Lead Flag</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(145),"N",1,V.Local.sData(145))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(138),V.Local.sData(139),V.Local.sData(140),V.Local.sData(141),V.Local.sData(142),V.Local.sData(143),V.Local.sData(144),V.Local.sData(145),V.Local.sRow)</string>
+        <string />
+        <string>'Next Cycle Date</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(146)," ",6,V.Local.sData(146))</string>
+        <string />
+        <string>'Cost</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(147),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sData(147),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",9,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",8,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",9,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",6,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(147))</string>
+        <string />
+        <string>'Exclude in Multi-Part WO's</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(148),"N",1,V.Local.sData(148))</string>
+        <string />
+        <string>'Sales Order/Work Order Labels Report</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(149)," ",6,V.Local.sData(149))</string>
+        <string />
+        <string>'Thickness</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(150),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(150))</string>
+        <string />
+        <string>'Roll</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(151),"N",1,V.Local.sData(151))</string>
+        <string />
+        <string>'Include Sliding Discounts</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(152),"N",1,V.Local.sData(152))</string>
+        <string />
+        <string>'Do Not Discount</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(153),"N",1,V.Local.sData(153))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(146),V.Local.sData(147),V.Local.sData(148),V.Local.sData(149),V.Local.sData(150),V.Local.sData(151),V.Local.sData(152),V.Local.sData(153),V.Local.sRow)</string>
+        <string />
+        <string>'Standard Cost Quantity</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(154),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>'Build Left side</string>
+        <string>F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",9,V.Local.sTemp(0))</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",6,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(154))</string>
+        <string />
+        <string>'Trigger Part</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(155),"N",1,V.Local.sData(155))</string>
+        <string />
+        <string>'VAT Product Type</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(156)," ",5,V.Local.sData(156))</string>
+        <string />
+        <string>'Sales Tax Exempt</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(157),"N",1,V.Local.sData(157))</string>
+        <string />
+        <string>'Created By</string>
+        <string>F.Intrinsic.String.RPad(V.Caller.User," ",8,V.Local.sData(158))</string>
+        <string />
+        <string>'Drop</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(159),"N",1,V.Local.sData(159))</string>
+        <string />
+        <string>'Drop Size</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(160)," ",30,V.Local.sData(160))</string>
+        <string />
+        <string>'Expiration Date</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(161)," ",8,V.Local.sData(161))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}",V.Local.sRow,V.Local.sData(154),V.Local.sData(155),V.Local.sData(156),V.Local.sData(157),V.Local.sData(158),V.Local.sData(159),V.Local.sData(160),V.Local.sData(161),V.Local.sRow)</string>
+        <string />
+        <string>'Warranty Months</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(162)," ",3,V.Local.sData(162))</string>
+        <string />
+        <string>'Usage</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(163),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",12,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",12,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",6,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(163))</string>
+        <string />
+        <string>'Filler</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(164)," ",13,V.Local.sData(164))</string>
+        <string />
+        <string>'Allocated?</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(165),"N",1,V.Local.sData(165))</string>
+        <string />
+        <string>'Allocated Type?</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(166)," ",1,V.Local.sData(166))</string>
+        <string />
+        <string>'PO Number</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(167)," ",7,V.Local.sData(167))</string>
+        <string />
+        <string>'PO Line Number</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(168)," ",4,V.Local.sData(168))</string>
+        <string />
+        <string>'Do Not Backflush</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(169),"Y",1,V.Local.sData(169))</string>
+        <string />
+        <string>'In Transit Quantity</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(170),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",12,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",12,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",6,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(170))</string>
+        <string />
+        <string>'Cert Code</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(171)," ",20,V.Local.sData(171))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}{9}{10}",V.Local.sRow,V.Local.sData(162),V.Local.sData(163),V.Local.sData(164),V.Local.sData(165),V.Local.sData(166),V.Local.sData(167),V.Local.sData(168),V.Local.sData(169),V.Local.sData(170),V.Local.sData(171),V.Local.sRow)</string>
+        <string />
+        <string>'Cert Date</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(172)," ",8,V.Local.sData(172))</string>
+        <string />
+        <string>'Country of Origin</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sData(173)," ",3,V.Local.sData(173))</string>
+        <string />
+        <string>'Material Unit Cost</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(174),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",14,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",13,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",14,V.Local.sTemp(0))	</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(174))</string>
+        <string />
+        <string>'Labor Unit Cost</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(175),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",14,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",13,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",14,V.Local.sTemp(0))	</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(175))</string>
+        <string />
+        <string>'Overhead Unit Cost</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(176),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",14,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",13,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",14,V.Local.sTemp(0))	</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(176))</string>
+        <string />
+        <string>'Outside Unit cost</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(177),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",14,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",13,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",14,V.Local.sTemp(0))	</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(177))</string>
+        <string />
+        <string>'Freight Unit Cost</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(178),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",14,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",13,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",14,V.Local.sTemp(0))	</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(178))</string>
+        <string />
+        <string>'Other Unit Cost</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(179),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",14,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",13,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",14,V.Local.sTemp(0))	</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",4,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(179))</string>
+        <string />
+        <string>'Alt Cost Ext</string>
+        <string>V.Local.sTemp.Redim(0,0)</string>
+        <string>F.Intrinsic.String.Split(V.Local.sData(180),".",V.Local.sTemp)</string>
+        <string>'In case there wasn't a decimal</string>
+        <string>V.Local.sTemp.RedimPreserve(0,1)</string>
+        <string>F.Intrinsic.String.IsInString(V.Local.sTemp(0),"-",True,V.Local.bNegative)</string>
+        <string>'If it is negative we need to remove it so that we can place it on the far end of the value</string>
+        <string>F.Intrinsic.Control.If(V.Local.bNegative,&lt;&gt;,True)</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",12,V.Local.sTemp(0))</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	'Remove the negative sign</string>
+        <string>	F.Intrinsic.String.Replace(V.Local.sTemp(0),"-","",V.Local.sTemp(0))</string>
+        <string>	'Build Left side</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"0",11,V.Local.sTemp(0))</string>
+        <string>	'Add in the negative sign</string>
+        <string>	F.Intrinsic.String.LPad(V.Local.sTemp(0),"-",12,V.Local.sTemp(0))	</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string>'Build Right side</string>
+        <string>F.Intrinsic.String.RPad(V.Local.sTemp(1),"0",6,V.Local.sTemp(1))</string>
+        <string>'Recombine</string>
+        <string>F.Intrinsic.String.Join(V.Local.sTemp,".",V.Local.sData(180))</string>
+        <string />
+        <string>'Add to the data string</string>
+        <string>F.Intrinsic.String.Build("{0}{1}{2}{3}{4}{5}{6}{7}{8}{9}",V.Local.sRow,V.Local.sData(172),V.Local.sData(173),V.Local.sData(174),V.Local.sData(175),V.Local.sData(176),V.Local.sData(177),V.Local.sData(178),V.Local.sData(179),V.Local.sData(180),V.Local.sRow)</string>
+        <string />
+        <string>F.Intrinsic.Variable.AddRV("AddRow",V.Local.sRow)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("FormatRow_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4183_Import_Inv_Data.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_inv_append_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.FormatRow.End</string>
+        <string />
+        <string>Program.Sub.cmdFailed_Click.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("cmdFailed_Click_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.sRet.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.Task.ShellExec(0,"open",V.Global.sFilePath,"","",0)</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("cmdFailed_Click_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4183_Import_Inv_Data.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_inv_append_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.cmdFailed_Click.End</string>
+        <string />
+        <string>Program.Sub.F_Inv_Append_UnLoad.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("F_Inv_Append_UnLoad_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string />
+        <string>F.Intrinsic.Control.End</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("F_Inv_Append_UnLoad_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4183_Import_Inv_Data.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.End</string>
+        <string />
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string>Program.Sub.F_Inv_Append_UnLoad.End</string>
+        <string />
+        <string>Program.Sub.Extra_Text.Start</string>
+        <string>F.Intrinsic.Control.SetErrorHandler("Extra_Text_Err")</string>
+        <string>F.Intrinsic.Control.ClearErrors</string>
+        <string />
+        <string>V.Local.sError.Declare(String)</string>
+        <string>V.Local.iSize.Declare(Long)</string>
+        <string>V.Local.iLine.Declare(Long)</string>
+        <string>V.Local.i.Declare(Long)</string>
+        <string>V.Local.iC.Declare(Long)</string>
+        <string>V.Local.iInd.Declare(Long)</string>
+        <string>V.Local.sSql.Declare(String)</string>
+        <string />
+        <string>'creating extra descriptions datatable</string>
+        <string>F.Intrinsic.String.Build("Select Part, Text From INV_EXTRA_TEXT Where Part = '{0}'",V.Args.Part,V.Local.sSql)</string>
+        <string>F.Data.DataTable.CreateFromSQL("ExDesc","conX",V.Local.sSql,True)</string>
+        <string />
+        <string>F.Intrinsic.Control.If(V.DataTable.ExDesc.RowCount--,&lt;&gt;,-1)</string>
+        <string>	F.Data.DataTable.SetValue("ExDesc",0,"Text",V.Args.Desc)</string>
+        <string>F.Intrinsic.Control.Else</string>
+        <string>	F.Data.DataTable.AddRow("ExDesc","Part",V.Args.Part,"Text",V.Args.Desc)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>'saving to db if records have been added.</string>
+        <string>F.Intrinsic.Control.If(V.DataTable.ExDesc.RowCount--,&gt;,-1)</string>
+        <string>	F.Data.DataTable.SaveToDB("ExDesc","conX","INV_EXTRA_TEXT","Part",7)</string>
+        <string>F.Intrinsic.Control.EndIf</string>
+        <string />
+        <string>F.Data.DataTable.Close("ExDesc")</string>
+        <string />
+        <string>F.Intrinsic.Control.ExitSub</string>
+        <string />
+        <string>F.Intrinsic.Control.Label("Extra_Text_Err")</string>
+        <string>F.Intrinsic.Control.If(V.Ambient.ErrorNumber,&lt;&gt;,0)</string>
+        <string>	Function.Intrinsic.String.Concat("Project: GCG_4183_Import_Inv_Data.g2u",V.Ambient.Newline,V.Ambient.Newline,"Subroutine: ",V.Ambient.CurrentSubroutine,V.Ambient.NewLine,"Error Occurred ",V.Ambient.ErrorNumber," with description ",V.Ambient.ErrorDescription,V.Local.sError)</string>
+        <string>	F.Intrinsic.UI.Msgbox(V.Local.sError)</string>
+        <string>	F.Intrinsic.Control.CallSub(f_inv_append_unload)</string>
+        <string>Function.Intrinsic.Control.EndIf</string>
+        <string />
+        <string />
+        <string>Program.Sub.Extra_Text.End</string>
+        <string />
+        <string>Program.Sub.Comments.Start</string>
+        <string>${$0$}$Append REV Inventory Data$}$BCC$}$8/22/2016 4:40:46 PM$}$False</string>
+        <string>${$2$}$$}$$}$0$}$4$}$Custom Menu Item$}$8/22/2016 4:40:46 PM$}$File Path: Inventory &gt; File &gt; Append Parts(Custom Menu Item)</string>
+        <string>${$3$}$0$}$$}$0$}$-1$}$$}$12:00:00 AM$}$This custom GAB script will allow for the user to browse for an excel spreadsheet. Once selected the program will read part information contained within the spreadsheet and upload the inventory information.</string>
+        <string>The program will reject any part numbers that already exists. After processing a text report confirming number of parts uploaded and list of rejected parts numbers after upload (similar to the data conversion mapper).</string>
+        <string>*Note: Customer will be responsible for making sure the data in the spreadsheet conforms to the format and field size for each field in each record.</string>
+        <string>Program.Sub.Comments.End</string>
+      </Lines>
+    </TextStrings>
+  </TextSource>
+  <Scrolling>
+    <WindowOriginY>1360</WindowOriginY>
+  </Scrolling>
+  <Outlining>
+    <AllowOutlining>true</AllowOutlining>
+    <ImageSize>8</ImageSize>
+    <Ranges>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>0</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>47</Y>
+        </EndPoint>
+        <Text>Program.Sub.ScreenSU</Text>
+        <DisplayText>Program.Sub.ScreenSU</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>49</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>51</Y>
+        </EndPoint>
+        <Text>Program.Sub.Preflight</Text>
+        <DisplayText>Program.Sub.Preflight</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>53</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>70</Y>
+        </EndPoint>
+        <Text>Program.Sub.Main</Text>
+        <DisplayText>Program.Sub.Main</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>72</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>98</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdBrowser_Click</Text>
+        <DisplayText>Program.Sub.cmdBrowser_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>100</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>119</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdOkay_Click</Text>
+        <DisplayText>Program.Sub.cmdOkay_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>121</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>245</Y>
+        </EndPoint>
+        <Text>Program.Sub.BuildFile</Text>
+        <DisplayText>Program.Sub.BuildFile</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>247</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>276</Y>
+        </EndPoint>
+        <Text>Program.Sub.CheckPart</Text>
+        <DisplayText>Program.Sub.CheckPart</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>278</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1381</Y>
+        </EndPoint>
+        <Text>Program.Sub.FormatRow</Text>
+        <DisplayText>Program.Sub.FormatRow</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1383</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1400</Y>
+        </EndPoint>
+        <Text>Program.Sub.cmdFailed_Click</Text>
+        <DisplayText>Program.Sub.cmdFailed_Click</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1402</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1419</Y>
+        </EndPoint>
+        <Text>Program.Sub.F_Inv_Append_UnLoad</Text>
+        <DisplayText>Program.Sub.F_Inv_Append_UnLoad</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1421</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1460</Y>
+        </EndPoint>
+        <Text>Program.Sub.Extra_Text</Text>
+        <DisplayText>Program.Sub.Extra_Text</DisplayText>
+        <Visible>true</Visible>
+        <Level>0</Level>
+      </Range>
+      <Range>
+        <StartPoint>
+          <X>0</X>
+          <Y>1462</Y>
+        </StartPoint>
+        <EndPoint>
+          <X>2147483647</X>
+          <Y>1468</Y>
+        </EndPoint>
+        <Text>Program.Sub.Comments</Text>
+        <DisplayText>Program.Sub.Comments</DisplayText>
+        <Visible>false</Visible>
+        <Level>0</Level>
+      </Range>
+    </Ranges>
+  </Outlining>
+  <HyperText />
+  <Spelling />
+  <Braces />
+</SyntaxEdit>
